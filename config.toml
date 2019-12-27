@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://guevarra.io/cv"
+baseurl = ""
 languageCode = "en-gb"
 title = "Ernest Guevarra Resume"
 theme = "hugo-orbit-theme"
@@ -16,8 +16,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = ""
+    author = ""
 
 # Theme styles
 
@@ -26,7 +26,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-3.css"
 
 # Sidebar sections
 
@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [params.profile]
         name = "Ernest Guevarra"
         tagline = "Public Health Specialist, Spatial Epidemiologist, R Developer"
-        avatar = "profile.png"
+        avatar = "guevarra.jpg"
 
     # Contact section
     [params.contact]
@@ -43,14 +43,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: ernest@guevarra.io"
+        url = "mailto:ernest@guevarra.io"
         title = "ernest@guevarra.io"
 
         [[params.contact.list]]
         class = "phone"
-        icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        icon = "fa-skype"
+        url = "skype:ernestguevarra?call"
+        title = "ernestguevarra"
 
         [[params.contact.list]]
         class = "website"
@@ -82,14 +82,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Master of Public Health"
+        college = "Harvard School of Public Health"
+        dates = "2004 - 2005"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Doctor of Medicine"
+        college = "University of the Philippines"
+        dates = "1994 - 2001"
 
     # Languages section
     [params.language]
@@ -101,12 +101,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
+        language = "Filipino"
+        level = "Native"
 
     # Interests section
     [params.interests]
