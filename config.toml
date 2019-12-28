@@ -106,17 +106,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
-
-        [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Travel"
 
         [[params.interests.list]]
         interest = "Cooking"
+
+        [[params.interests.list]]
+        interest = "Basketball"
 
 # Main body sections
 
@@ -161,24 +161,24 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "washdata"
+        url = "https://github.com/validmeasures/washdata"
+        tagline = "Urban Water and Sanitation Survey Dataset"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "ppitables"
+        url = "https://github.com/validmeasures/ppitables"
+        tagline = "Lookup tables to generate poverty likelihoods and rates using the Poverty Probability Index (PPI) from country-specific indicators collected from cross-sectional surveys."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "bbw"
+        url = "https://github.com/validmeasures/bbw"
+        tagline = "The blocked weighted bootstrap (BBW) is an estimation technique for use with data from two-stage cluster sampled surveys in which either prior weighting (e.g. population-proportional sampling or PPS as used in Standardized Monitoring and Assessment of Relief and Transitions or SMART surveys)."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        title = "zscorer"
+        url = "https://github.com/nutriverse/zscorer"
+        tagline = "Weight-for-age, height-for-age, weight-for-height, BMI-for-age, head circumference-for-age, arm circumference-for-age, subscapular skinfold-for-age and triceps skinfold-for-age z-score calculator"
 
         [[params.projects.list]]
         title = "Me"
@@ -225,4 +225,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Ernest Guevarra"
