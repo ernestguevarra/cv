@@ -1,7 +1,8 @@
 # Page settings
 
-baseurl = ""
+baseurl = "https://ernest.guevarra.io/cv"
 languageCode = "en-gb"
+publishDir = "docs"
 title = "Ernest Guevarra Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
