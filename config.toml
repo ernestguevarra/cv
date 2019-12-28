@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://ernest.guevarra.io/cv"
+baseurl = "https://ernest.guevarra.io/cv/"
 languageCode = "en-gb"
 publishDir = "docs"
 title = "Ernest Guevarra Resume"
