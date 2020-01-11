@@ -3,7 +3,7 @@
 baseurl = "https://ernest.guevarra.io/cv/"
 languageCode = "en-gb"
 publishDir = "docs"
-title = "Ernest Guevarra Resume"
+title = "Ernest Guevarra Résumé"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -56,20 +56,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//guevarra.io"
-        title = "guevarra.io"
-
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/ernestguevarra"
-        title = "linkedin.com/in/ernestguevarra"
-
-        [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "//github.com/ernestguevarra"
-        title = "github.com/ernestguevarra"
+        url = "//ernest.guevarra.io"
+        title = "https://ernest.guevarra.io"
 
         [[params.contact.list]]
         class = "twitter"
